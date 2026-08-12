@@ -136,3 +136,28 @@ span.highlight {
 .equal-contribution {
   vertical-align: text-top;
 }
+
+.section-index {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  padding: 12px 14px;
+
+  background: #f6f6f6;
+  border-radius: 6px;
+}
+
+.section-index a {
+  display: block;
+  padding: 4px 0;
+
+  color: #888;
+  text-decoration: none;
+  font-size: 14px;
+
+  transition: color 0.15s ease, padding-left 0.15s ease;
+}
+
+.section-index a:hover {
+  color: #222;
+  padding-left: 5px;
+}
